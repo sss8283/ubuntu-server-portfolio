@@ -17,6 +17,7 @@ This reopsitory documents my Linux server learning and protfolio project.
 -Nginx Installation
 -Custim HTML Page
 -UFW Configuration
+-Fail2ban Installation
 
 ## Next Goals
 
