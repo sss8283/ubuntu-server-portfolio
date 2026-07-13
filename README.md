@@ -26,7 +26,7 @@ This reopsitory documents my Linux server learning and protfolio project.
 -Docker Nginx Container
 -Docker volume (Custom HTML)
 -Server Monitor Script
-
+-Automated Server Health Check Scriot (CPU / Memory / Disk)
 ## Next Goals
 
 -Fail2ban
