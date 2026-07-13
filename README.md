@@ -22,6 +22,9 @@ This reopsitory documents my Linux server learning and protfolio project.
 -Fian2ban configured(SSH brute-force protection)
 -SSH PUbilic Key Authentication
 -passwor Authentication Disabled
+-Docker Installed
+-Docker Nginx Container
+-Docker volume (Custom HTML)
 
 ## Next Goals
 
