@@ -20,6 +20,8 @@ This reopsitory documents my Linux server learning and protfolio project.
 -Fail2ban Installation
 -Fail2ban Installed
 -Fian2ban configured(SSH brute-force protection)
+-SSH PUbilic Key Authentication
+-passwor Authentication Disabled
 
 ## Next Goals
 
