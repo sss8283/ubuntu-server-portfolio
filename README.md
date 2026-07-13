@@ -25,6 +25,7 @@ This reopsitory documents my Linux server learning and protfolio project.
 -Docker Installed
 -Docker Nginx Container
 -Docker volume (Custom HTML)
+-Server Monitor Script
 
 ## Next Goals
 
