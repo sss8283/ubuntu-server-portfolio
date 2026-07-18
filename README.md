@@ -1,4 +1,3 @@
-
 # Ubuntu Server Portfolio
 
 ## Overview
@@ -7,7 +6,7 @@ This project is a Linux server portfolio built on Ubuntu Server.
 
 The environment was created using Docker, Nginx, PHP, and MySQL to build a user management web application with authentication.
 
-The goal of this project is to learn Linux server administration, web server configuration, container technology, and basic web application deployment.
+The goal of this project is to learn Linux server administration, container technology, web server configuration, and basic web application deployment.
 
 ---
 
@@ -40,10 +39,10 @@ The goal of this project is to learn Linux server administration, web server con
 
 ## Project Structure
 
-```
+```text
 ubuntu-server-portfolio/
-├── compose.yaml
 ├── README.md
+├── compose.yaml
 ├── html/
 │   ├── index.html
 │   ├── login.php
@@ -54,6 +53,7 @@ ubuntu-server-portfolio/
 │   ├── edit_user.php
 │   ├── delete_user.php
 │   ├── connect.php
+│   ├── create_table.php
 │   └── info.php
 └── nginx/
     └── default.conf
@@ -61,35 +61,45 @@ ubuntu-server-portfolio/
 
 ---
 
+## Architecture
+
+```text
+Browser
+    │
+    ▼
+Nginx (Docker)
+    │
+    ▼
+PHP
+    │
+    ▼
+MySQL
+```
+
+---
+
 ## Environment
 
-Host OS
-
+### Host OS
 - Windows 11
 
-Virtual Machine
-
+### Virtual Machine
 - VirtualBox
 
-Guest OS
-
+### Guest OS
 - Ubuntu Server 26.04 LTS
 
-Container
-
+### Container
 - Docker
 - Docker Compose
 
-Web Server
-
+### Web Server
 - Nginx
 
-Language
-
+### Programming Language
 - PHP
 
-Database
-
+### Database
 - MySQL
 
 ---
@@ -97,8 +107,9 @@ Database
 ## Completed
 
 - Ubuntu Server Installation
+- Git Installation
 - Docker Installation
-- Docker Compose
+- Docker Compose Configuration
 - Nginx Configuration
 - PHP Environment
 - MySQL Environment
@@ -111,11 +122,54 @@ Database
 
 ---
 
+## How to Run
+
+### Clone Repository
+
+```bash
+git clone https://github.com/sss8283/ubuntu-server-portfolio.git
+```
+
+### Move to Project Directory
+
+```bash
+cd ubuntu-server-portfolio
+```
+
+### Start Docker Containers
+
+```bash
+docker compose up -d
+```
+
+### Open in Browser
+
+```text
+http://localhost
+```
+
+---
+
+## Learning Goals
+
+This project was created to learn:
+
+- Linux Server Administration
+- Docker & Docker Compose
+- Nginx Configuration
+- PHP Development
+- MySQL Database Management
+- Authentication and Session Management
+- Git & GitHub Workflow
+
+---
+
 ## Future Plans
 
 - Fix UTF-8 (Japanese Encoding)
 - Build an Incident Response Practice Lab
-- Deploy the Application on AWS
+- Deploy to AWS
+- Configure SSL (HTTPS)
 - Learn Linux Server Security
 - Improve Monitoring and Logging
 
@@ -123,4 +177,4 @@ Database
 
 ## Purpose
 
-This project was created to improve practical Linux server administration skills and build a portfolio for entry-level server engineering positions.
+This project was created to improve practical Linux server administration skills and build a portfolio for an entry-level Linux Server Engineer position.
